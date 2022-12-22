@@ -24,6 +24,7 @@ const PostCard = ({ post }) => {
         <div className="flex item-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8">
           <Image
             alt={post.author.name}
+            loader={grpahCMSImageLoader}
             unoptimized
             height={30}
             width={30}
