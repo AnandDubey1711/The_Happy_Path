@@ -1,6 +1,10 @@
-import React from "react";
-import moment from "moment";
-import Link from "next/Link";
+
+import React from 'react';
+import Image from 'next/image';
+import moment from 'moment';
+import Link from 'next/link';
+
+
 
 const PostCard = ({ post }) => {
   
@@ -18,10 +22,12 @@ const PostCard = ({ post }) => {
       </h1>
       <div className="block lg:flex text-center items-center justify-center mb-8 w-full">
         <div className="flex item-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8">
-          <img
+          <Image
             alt={post.author.name}
-            height="30px"
-            width="30px"
+            unoptimized
+            height={30}
+            width={30}
+            
             className="align-middle rounded-full"
             src={post.author.photo.url}
           />
