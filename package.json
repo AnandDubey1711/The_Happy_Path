@@ -6,9 +6,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.0.0",
+    "html-react-parser": "^3.0.4",
+    "moment": "^2.29.4",
     "next": "latest",
+    "node_module": "^0.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-multi-carousel": "^2.8.2",
+    "sass": "^1.56.2"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
@@ -18,5 +25,14 @@
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.1",
     "typescript": "4.8.4"
-  }
+  },
+  "name": "blogging",
+  "description": "This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+  
 }
+
